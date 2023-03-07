@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#icon').click(function() {
+                $('ul').toggleClass('show');
+            });
+        });
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="#">TACOS</a>
+                </li>
+                <li>
+                    <a href="#">BEERS</a>
+                </li>
+                <li>
+                    <a href="#">WINES</a>
+                </li>
+                <li>
+                    <a href="#">DESSERTS</a>
+                </li>
+                <li>
+                    <a href="#">RESERVATIONS</a>
+                </li>
+            </ul>
+            <label id="icon">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+    </nav>
+
+    <div class="grid_container">
+        <div class="item">
+            <img src="https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg">
+        </div>
+        <div class="item">
+            <h2>$1.99</h2>
+            <p>Tacos</p>
+        </div>
+        <div class="item">
+            <h2>$3.99</h2>
+            <p>Kombucha</p>
+        </div>
+    </div>
+    
+    <div class="flex_container">
+        <div class="item_1">
+
+        </div>
+        <div class="item_2">
+
+        </div>
+        <div class="item_3">
+
+        </div>
+        <div class="item_4">
+
+        </div>
+    </div>
+
+    <div class="instant">
+        <div class="instant_img">1</div>
+        <div class="instant_img">2</div>
+        <div class="instant_img">3</div>
+        <div class="instant_img">4</div>
+        <div class="instant_img">5</div>
+        <div class="instant_img">6</div>
+        <div class="instant_img">7</div>
+        <div class="instant_img">8</div>
+        <div class="instant_img">9</div>
+        <div class="instant_img">10</div>
+    </div>
+
+</body>
+</html>
